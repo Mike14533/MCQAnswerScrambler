@@ -3,7 +3,7 @@ import './FileUpload.css'
 
 function FileUpload (){
     const [inputs, setInputs] = useState('');
-    let DoScramble = false
+
 
     const handleChange= (e:any) => {
         const value = e.target.value
